@@ -26,7 +26,7 @@ export default function Footer({ collapsed }) {
     >
       {/* Left */}
       <span className="text-black dark:text-gray-400">
-        {t("2025_proteccio_data")}
+        {t("2025_vigilprivacy_data")}
       </span>
 
       {/* Right */}

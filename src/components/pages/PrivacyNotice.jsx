@@ -35,7 +35,7 @@ export default function PrivacyNotice() {
             {/* Intro */}
             <section className="bg-white rounded-xl shadow-lg p-8">
               <p className="text-gray-700 leading-relaxed">
-                Proteccio Data (“Company”, “we”, “us”, or “our”) is committed to safeguarding the
+                VigilPrivacy Data (“Company”, “we”, “us”, or “our”) is committed to safeguarding the
                 privacy and personal data of all users (“you”, “your”, or “User”) who access the RoPA
                 Application (“Application”). This Privacy Notice explains how we collect, use, store,
                 share, retain, transfer, and secure personal data when you use the Application. By
@@ -59,9 +59,9 @@ export default function PrivacyNotice() {
               <ul className="list-disc ml-6 text-gray-700 space-y-1">
                 <li>
                   Customer Data (e.g., RoPA entries, processing records, DPIA inputs), which is governed
-                  by the Data Processing Agreement (DPA) between you and Proteccio Data
+                  by the Data Processing Agreement (DPA) between you and VigilPrivacy Data
                 </li>
-                <li>Third-party websites or services not controlled by Proteccio Data</li>
+                <li>Third-party websites or services not controlled by VigilPrivacy Data</li>
               </ul>
             </section>
 
@@ -75,7 +75,7 @@ export default function PrivacyNotice() {
                 </li>
                 <li>
                   <strong>“Customer Data”</strong> – Data entered by the Customer into the Application
-                  relating to RoPA records, DPIAs, vendors, processes, etc. (Proteccio Data acts as a
+                  relating to RoPA records, DPIAs, vendors, processes, etc. (VigilPrivacy Data acts as a
                   Processor for such data.)
                 </li>
                 <li>
@@ -87,7 +87,7 @@ export default function PrivacyNotice() {
                 </li>
                 <li>
                   <strong>“Data Processor”</strong> – The entity that processes data on behalf of the
-                  controller (Proteccio Data acts as a Processor).
+                  controller (VigilPrivacy Data acts as a Processor).
                 </li>
               </ul>
             </section>
@@ -123,13 +123,13 @@ export default function PrivacyNotice() {
 
               <h3 className="font-semibold mt-6 mb-2">3.3 Sensitive Personal Data</h3>
               <p className="text-gray-700">
-                Proteccio Data does NOT intentionally collect sensitive personal data of Users unless
+                VigilPrivacy Data does NOT intentionally collect sensitive personal data of Users unless
                 provided voluntarily or required for compliance purposes.
               </p>
 
               <h3 className="font-semibold mt-6 mb-2">3.4 Data Processed on Behalf of Customers (Customer Data)</h3>
               <p className="text-gray-700">
-                This includes RoPA entries such as IP Address, Email, Names. Proteccio Data only
+                This includes RoPA entries such as IP Address, Email, Names. VigilPrivacy Data only
                 processes this data as a Data Processor.
               </p>
             </section>
@@ -138,7 +138,7 @@ export default function PrivacyNotice() {
             <section className="bg-white rounded-xl shadow-lg p-8">
               <h2 className="text-2xl font-bold mb-4">4. Legal Basis for Processing Personal Data</h2>
               <p className="text-gray-700 mb-4">
-                Where the GDPR or similar data protection frameworks apply, Proteccio Data relies on one
+                Where the GDPR or similar data protection frameworks apply, VigilPrivacy Data relies on one
                 or more of the following legal bases for processing:
               </p>
               <ul className="list-disc ml-6 text-gray-700 space-y-2">
@@ -201,7 +201,7 @@ export default function PrivacyNotice() {
               </p>
 
               <p className="text-gray-700 mb-4">
-                Proteccio Data processes Customer Data only for:
+                VigilPrivacy Data processes Customer Data only for:
               </p>
               <ul className="list-disc ml-6 text-gray-700 space-y-1">
                 <li>Hosting</li>
@@ -212,7 +212,7 @@ export default function PrivacyNotice() {
                 <li>Security monitoring</li>
               </ul>
 
-              <p className="text-gray-700 mt-4">Proteccio Data does NOT:</p>
+              <p className="text-gray-700 mt-4">VigilPrivacy Data does NOT:</p>
               <ul className="list-disc ml-6 text-gray-700 space-y-1">
                 <li>Use Customer Data for analytics</li>
                 <li>Sell or share Customer Data</li>
@@ -245,7 +245,7 @@ export default function PrivacyNotice() {
             <section className="bg-white rounded-xl shadow-lg p-8">
               <h2 className="text-2xl font-bold mb-4">8. Sharing of Personal Data</h2>
               <p className="text-gray-700 mb-4">
-                Proteccio Data may share limited Personal Data with the following categories of recipients:
+                VigilPrivacy Data may share limited Personal Data with the following categories of recipients:
               </p>
 
               <h3 className="font-semibold mb-2">8.1 Third-Party Service Providers</h3>
@@ -263,14 +263,14 @@ export default function PrivacyNotice() {
 
               <h3 className="font-semibold mt-4 mb-2">8.3 Business Transfers</h3>
               <p className="text-gray-700">
-                If Proteccio Data undergoes a merger, acquisition, restructuring, or sale of assets, Personal Data may be part of the transaction, subject to appropriate safeguards. Proteccio Data never sells Personal Data.
+                If VigilPrivacy Data undergoes a merger, acquisition, restructuring, or sale of assets, Personal Data may be part of the transaction, subject to appropriate safeguards. VigilPrivacy Data never sells Personal Data.
               </p>
             </section>
 
             {/* 9. Retention */}
             <section className="bg-white rounded-xl shadow-lg p-8">
               <h2 className="text-2xl font-bold mb-4">9. Data Retention</h2>
-              <p className="text-gray-700 mb-3">Proteccio Data retains personal data based on the following principles:</p>
+              <p className="text-gray-700 mb-3">VigilPrivacy Data retains personal data based on the following principles:</p>
 
               <h3 className="font-semibold mb-2">9.1 Application Usage</h3>
               <p className="text-gray-700">While your account remains active; until contract termination; until you request deletion.</p>
@@ -286,7 +286,7 @@ export default function PrivacyNotice() {
             <section className="bg-white rounded-xl shadow-lg p-8">
               <h2 className="text-2xl font-bold mb-4">10. Data Storage, Security & Protection</h2>
               <p className="text-gray-700 mb-4">
-                Proteccio Data implements industry-standard security measures to protect Personal Data and Customer Data, including:
+                VigilPrivacy Data implements industry-standard security measures to protect Personal Data and Customer Data, including:
               </p>
 
               <ul className="list-disc ml-6 text-gray-700 space-y-1">
@@ -338,7 +338,7 @@ export default function PrivacyNotice() {
             <section className="bg-white rounded-xl shadow-lg p-8">
               <h2 className="text-2xl font-bold mb-4">13. Children’s Data</h2>
               <p className="text-gray-700">
-                The Application is not intended for individuals under the age of 18. Proteccio Data does not knowingly collect or process personal data of children. If we become aware that such data has been provided, we will take steps to delete it promptly.
+                The Application is not intended for individuals under the age of 18. VigilPrivacy Data does not knowingly collect or process personal data of children. If we become aware that such data has been provided, we will take steps to delete it promptly.
               </p>
             </section>
 
@@ -346,7 +346,7 @@ export default function PrivacyNotice() {
             <section className="bg-white rounded-xl shadow-lg p-8">
               <h2 className="text-2xl font-bold mb-4">14. Data Breach Notifications</h2>
               <p className="text-gray-700 mb-3">
-                In the event of a confirmed personal data breach, Proteccio Data will:
+                In the event of a confirmed personal data breach, VigilPrivacy Data will:
               </p>
               <ul className="list-disc ml-6 text-gray-700 space-y-1">
                 <li>Notify affected customers promptly</li>
@@ -360,7 +360,7 @@ export default function PrivacyNotice() {
             <section className="bg-white rounded-xl shadow-lg p-8">
               <h2 className="text-2xl font-bold mb-4">15. Third-Party Links</h2>
               <p className="text-gray-700">
-                The Application may contain links to third-party tools, documentation, or integrations. Proteccio Data is not responsible for the privacy practices, content, or security measures of external websites or services. We encourage you to review the privacy policies of any third-party services you interact with.
+                The Application may contain links to third-party tools, documentation, or integrations. VigilPrivacy Data is not responsible for the privacy practices, content, or security measures of external websites or services. We encourage you to review the privacy policies of any third-party services you interact with.
               </p>
             </section>
 
@@ -368,7 +368,7 @@ export default function PrivacyNotice() {
             <section className="bg-white rounded-xl shadow-lg p-8">
               <h2 className="text-2xl font-bold mb-4">16. Automated Decision-Making</h2>
               <p className="text-gray-700">
-                Proteccio Data does not use automated decision-making or profiling that produces legal or similarly significant effects on users.
+                VigilPrivacy Data does not use automated decision-making or profiling that produces legal or similarly significant effects on users.
               </p>
             </section>
 
@@ -376,7 +376,7 @@ export default function PrivacyNotice() {
             <section className="bg-white rounded-xl shadow-lg p-8">
               <h2 className="text-2xl font-bold mb-4">17. Changes to This Privacy Notice</h2>
               <p className="text-gray-700">
-                Proteccio Data may update this Privacy Notice from time to time. Changes will become effective when posted within the Application. Continued use of the Application after updates constitutes your acceptance of the revised Notice.
+                VigilPrivacy Data may update this Privacy Notice from time to time. Changes will become effective when posted within the Application. Continued use of the Application after updates constitutes your acceptance of the revised Notice.
               </p>
             </section>
 
@@ -393,7 +393,7 @@ export default function PrivacyNotice() {
                     <i className="lucide lucide-mail text-xl opacity-80" />
                     <div>
                       <p className="text-sm opacity-80">Email</p>
-                      <p className="font-medium">contact@protecciodata.com</p>
+                      <p className="font-medium">contact@vigilprivacydata.com</p>
                     </div>
                   </div>
 
@@ -416,7 +416,7 @@ export default function PrivacyNotice() {
             <section className="bg-white rounded-xl shadow-lg p-8">
               <h2 className="text-2xl font-bold mb-4">19. Grievance Officer (Required for India – DPDPA 2023)</h2>
               <p className="text-gray-700 mb-2">
-                Email: contact@protecciodata.com
+                Email: contact@vigilprivacydata.com
               </p>
               <p className="text-gray-700">
                 Address: Please refer to website for registered address
@@ -441,7 +441,7 @@ export default function PrivacyNotice() {
               </button>
 
               <a
-                href="mailto:contact@protecciodata.com?subject=Privacy Inquiry"
+                href="mailto:contact@vigilprivacydata.com?subject=Privacy Inquiry"
                 className="inline-flex items-center gap-2 bg-[#1cd35c] text-white px-4 py-2 rounded-lg font-semibold hover:opacity-90 transition"
               >
                 Contact Our DPO

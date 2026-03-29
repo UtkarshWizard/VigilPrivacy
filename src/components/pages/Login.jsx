@@ -187,7 +187,7 @@ export default function Login() {
       {/* RIGHT SIDE */}
       <div className="hidden md:flex flex-1 flex-col items-center justify-center bg-gradient-to-br from-[#E9FFF2] to-[#C4F9DC] dark:from-gray-800 dark:to-gray-900">
         <img
-          src="/assets/logo.svg"
+          src="/vigil_privacy_logo.png"
           alt="logo"
           className="w-72 h-auto drop-shadow-lg"
         />

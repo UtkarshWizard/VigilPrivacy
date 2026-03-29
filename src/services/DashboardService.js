@@ -16,10 +16,10 @@ export const getComplianceScore = () => {
   return axiosInstance.get("/portal/compliance/score");
 };
 
-export const getAssessmentTrend = () => {
-  return axiosInstance.get(
-    "/portal/assessments/dashboard?period=yearly"
-  );
+export const getAssessmentTrend = (period = "yearly", year) => {
+  return axiosInstance.get("/portal/assessments/dashboard", {
+    params: { period, year },
+  });
 };
 
 export const getRiskOverview = () => {

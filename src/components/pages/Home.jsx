@@ -194,6 +194,7 @@ export default function Home() {
       const dateObj = new Date(item.createdAt);
 
       return {
+        id: item.id,
         activity: item.message,
         date: dateObj.toLocaleDateString("en-IN", {
           day: "2-digit",
@@ -265,15 +266,15 @@ export default function Home() {
       }, 16);
     };
 
-    animate("ropa", data.stats.totalRopas);
-    animate("assessments", data.stats.myReports);
+    animate("ropa", data.stats?.totalRopas || 0);
+    animate("assessments", data.stats?.myReports || 0);
     animate(
       "transfers",
-      Object.values(data.ropasByCategory).reduce((a, b) => a + b, 0)
+      data.data_transfers || Object.values(data.ropasByCategory || {}).reduce((a, b) => a + b, 0)
     );
-    animate("compliance", data.stats.completionAverage);
+    animate("compliance", data.stats?.completionAverage || 0);
     animate("risk", data.risk || 0);
-    animate("dataMappings", data.dataMappings);
+    animate("dataMappings", data.dataMappings || 0);
   };
 
   // useEffect(() => {
@@ -438,6 +439,7 @@ export default function Home() {
         const res = await getAssessmentTrend("yearly", selectedYear);
 
         let graph = res.data.graphData;
+        console.log ("graph" ,graph)
 
         // filter using selectedMonth (1–12)
         if (selectedMonth !== null) {
@@ -1077,7 +1079,7 @@ export default function Home() {
                 <h4 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">
                   {t("recent_transfers")}
                 </h4>
-                {recentTransfers ? (
+                {!recentTransfers || recentTransfers.length === 0 ? (
                   <div className=" text-gray-500 dark:text-gray-400 text-lg text-center">
                     {t("no_recent_transfers")}
                   </div>
@@ -1085,14 +1087,14 @@ export default function Home() {
                   <div className="space-y-2 pr-1">
                     {recentTransfers.map((t) => (
                       <div
-                        key={t.transfer_id}
+                        key={t.id || t.transfer_id}
                         className="flex justify-between items-center text-sm border-b dark:border-gray-700 border-gray-100 pb-2"
                       >
                         <div className="truncate max-w-[50%] dark:text-gray-200 text-gray-800">
                           {t.region}
                         </div>
                         <div className="text-xs text-gray-500">
-                          {t.transfer_type}
+                          {t.dataType || t.transfer_type}
                         </div>
                         <span
                           className={`text-xs font-medium px-2 py-0.5 rounded-full ${
@@ -1103,7 +1105,7 @@ export default function Home() {
                               : "bg-green-100 text-green-700"
                           }`}
                         >
-                          {t.risk_level || "Unassessed"}
+                          {t.risk || t.risk_level || "Unassessed"}
                         </span>
                       </div>
                     ))}

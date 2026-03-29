@@ -27,7 +27,7 @@ export default function TermsofService() {
               {t("terms_of_service")}
             </h1>
             <p className="text-lg opacity-90">
-              {t("ropa_application_by_proteccio_data")}
+              {t("ropa_application_by_vigilprivacy_data")}
             </p>
             <div className="mt-4 flex justify-center gap-4">
               <span className="bg-white/20 px-4 py-2 rounded-full">
@@ -194,7 +194,7 @@ export default function TermsofService() {
         <section className="bg-white rounded-xl shadow-lg p-8">
           <h2 className="text-2xl font-bold mb-4">{t("5_license_grant")}</h2>
           <p className="text-gray-700 mb-4">
-            {t("proteccio_data_grants")}
+            {t("vigilprivacy_data_grants")}
           </p>
 
           <p className="text-gray-700 mb-4">{t("you_shall_not")}</p>
@@ -209,7 +209,7 @@ export default function TermsofService() {
               {t("bypass_security_attempt_to_disable_circumvent_or_b")}
             </li>
             <li>
-              {t("compete_with_proteccio_data_use_the_application_to")}
+              {t("compete_with_vigilprivacy_data_use_the_application_to")}
             </li>
             <li>
               {t("resell_or_re_license_sell_lease_sublicense_distrib")}
@@ -239,7 +239,7 @@ export default function TermsofService() {
           <p className="text-gray-700 mb-4">
             <strong>{t("6_2_limited_rights_of_use")}</strong>
             <br />
-            {t("proteccio_data_does_not_claim_any_ownership_rights")}
+            {t("vigilprivacy_data_does_not_claim_any_ownership_rights")}
           </p>
 
           <ul className="list-disc ml-6 text-gray-700 space-y-1">
@@ -260,7 +260,7 @@ export default function TermsofService() {
           <p className="text-gray-700 mb-4">
             <strong>{t("6_4_data_security")}</strong>
             <br />
-            {t("proteccio_data_will_implement")}
+            {t("vigilprivacy_data_will_implement")}
           </p>
 
           <p className="text-gray-700">
@@ -337,7 +337,7 @@ export default function TermsofService() {
           <p className="text-gray-700 mt-4">
             <strong>{t("8_3_third_party_processors")}</strong>
             <br />
-            {t("proteccio_data_may_engage_trusted")}
+            {t("vigilprivacy_data_may_engage_trusted")}
           </p>
         </section>
 
@@ -350,7 +350,7 @@ export default function TermsofService() {
             <li>
               <strong>{t("9_1_automated_backups")}</strong>
               <br />
-              {t("proteccio_data_performs_automated_backups_at_regul")}
+              {t("vigilprivacy_data_performs_automated_backups_at_regul")}
             </li>
             <li>
               <strong>{t("9_2_disaster_recovery")}</strong>
@@ -430,7 +430,7 @@ export default function TermsofService() {
           <p className="text-gray-700 mb-3">
             <strong>{t("11_2_disclaimer_of_responsibility")}</strong>
             <br />
-            {t("proteccio_data_is_not_resposible")}
+            {t("vigilprivacy_data_is_not_resposible")}
           </p>
 
           <p className="text-gray-700">
@@ -509,7 +509,7 @@ export default function TermsofService() {
           <p className="text-gray-700 mb-3">
             <strong>{t("14_2_non_refundable_fees")}</strong>
             <br />
-            {t("all_fees_charges_and_payments_made_to_proteccio_da")}
+            {t("all_fees_charges_and_payments_made_to_vigilprivacy_da")}
           </p>
 
           <p className="text-gray-700 mb-3">
@@ -552,7 +552,7 @@ export default function TermsofService() {
           </h2>
 
           <p className="text-gray-700 mb-3">
-            <strong>{t("proteccio_data_obligations")}</strong>
+            <strong>{t("vigilprivacy_data_obligations")}</strong>
             <br />
             {t("in_the_event_of_a_confirmed_security_incident_invo")}
           </p>
@@ -657,7 +657,7 @@ export default function TermsofService() {
           </h2>
 
           <p className="text-gray-700 mb-3">
-            {t("proteccio_data_does_not_warrant_or_guarantee_that")}
+            {t("vigilprivacy_data_does_not_warrant_or_guarantee_that")}
           </p>
           <ul className="list-disc ml-6 text-gray-700 space-y-1">
             <li>{t("the_application_will_be_error_free_or_uninterrupte")}</li>
@@ -728,7 +728,7 @@ export default function TermsofService() {
           <h2 className="text-2xl font-bold mb-4">{t("23_termination")}</h2>
 
           <p className="text-gray-700 mb-3">
-            {t("proteccio_data_may_suspend_or_terminate_your_acces")}
+            {t("vigilprivacy_data_may_suspend_or_terminate_your_acces")}
           </p>
           <ul className="list-disc ml-6 text-gray-700 space-y-1">
             <li>{t("you_breach_these_terms")}</li>
@@ -815,9 +815,9 @@ export default function TermsofService() {
 
           <p className="text-gray-700">{t("all_notices_should_be_sent_to")}</p>
           <p className="text-gray-700 mt-2">
-            {t("proteccio_data")}
+            {t("vigilprivacy_data")}
             <br />
-            {t("email_contact_protecciodata_com")}
+            {t("email_contact_vigilprivacydata_com")}
             <br />
             {t("address_please_refer_to_registered_address_on_webs")}
           </p>
@@ -855,7 +855,7 @@ export default function TermsofService() {
           <h2 className="text-2xl font-bold mb-4">{t("31_force_majeure")}</h2>
 
           <p className="text-gray-700">
-            {t("proteccio_data_shall_not_be_held")}
+            {t("vigilprivacy_data_shall_not_be_held")}
           </p>
 
           <ul className="list-disc ml-6 text-gray-700 space-y-1 mt-3">
@@ -868,7 +868,7 @@ export default function TermsofService() {
           </ul>
 
           <p className="text-gray-700 mt-3">
-            {t("such_events_shall_excuse_proteccio_data_from_its_o")}
+            {t("such_events_shall_excuse_vigilprivacy_data_from_its_o")}
           </p>
         </section>
 
@@ -880,7 +880,7 @@ export default function TermsofService() {
           </p>
 
           <p className="text-gray-700">
-           {t("proteccio_data_may_assign")}
+           {t("vigilprivacy_data_may_assign")}
           </p>
         </section>
 
@@ -891,9 +891,9 @@ export default function TermsofService() {
             {t("for_any_queries_support_or_assistance_please_reach")}
           </p>
           <p className="text-gray-700 mt-2">
-            <strong>{t("email")}</strong> contact@protecciodata.com
+            <strong>{t("email")}</strong> contact@vigilprivacydata.com
             <br />
-            <strong>{t("website")}</strong> www.protecciodata.com
+            <strong>{t("website")}</strong> www.vigilprivacydata.com
           </p>
         </section>
 
@@ -907,7 +907,7 @@ export default function TermsofService() {
           </button>
 
           <a
-            href="mailto:contact@protecciodata.com?subject=Terms Inquiry"
+            href="mailto:contact@vigilprivacydata.com?subject=Terms Inquiry"
             className="inline-flex items-center gap-2 bg-[#5DE992] text-black px-4 py-2 rounded-lg font-semibold hover:opacity-90 transition"
           >
             {t("contact_support")}

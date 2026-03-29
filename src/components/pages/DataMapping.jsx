@@ -29,6 +29,7 @@ import ViewFlowModal from "../modules/ViewFlowModal";
 import ConfirmationModal from "../ui/ConfirmationModal";
 import { useTranslation } from "react-i18next";
 import { addTranslationNamespace } from "../../i18n/config";
+import { useToast } from "../ui/ToastProvider";
 
 export default function DataMappingTable() {
   const [mappings, setMappings] = useState([]);
@@ -41,6 +42,7 @@ export default function DataMappingTable() {
   const [loading, setLoading] = useState(false);
   const [viewModalOpen, setViewModalOpen] = useState(false);
   const [viewFlow, setViewFlow] = useState(null);
+  const [viewMode, setViewMode] = useState(false);
   const [confirmModal, setConfirmModal] = useState({
     open: false,
     action: null, // 'delete' | 'archive' | 'unarchive'
@@ -60,6 +62,7 @@ export default function DataMappingTable() {
   }, [])
   
   const { t } = useTranslation("pages" , {keyPrefix:"DataMapping"})
+  const { addToast } = useToast();
 
   const toggleMenu = (id) => {
     setOpenMenu(openMenu === id ? null : id);
@@ -108,6 +111,7 @@ export default function DataMappingTable() {
       const newMapping = res.data?.dataMapping;
       await fetchList();
 
+      addToast("success", "Data Mapping flow created successfully!");
       if (newMapping && newMapping.id) {
         navigate(`/diagram-builder/${newMapping.id}`);
       } else {

@@ -121,7 +121,7 @@ export function DottedMultiLineChart({ data }) {
     if (chart) {
       chart.update();
     }
-  }, []);
+  }, [data, chartData]);
 
   return (
     <div className="w-full h-[220px]">

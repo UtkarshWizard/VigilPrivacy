@@ -643,7 +643,7 @@ export default function SettingsPage() {
       const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = url;
-      a.download = `proteccio_setup_backup_${Date.now()}.json`;
+      a.download = `vigilprivacy_setup_backup_${Date.now()}.json`;
       a.click();
       URL.revokeObjectURL(url);
       addToast("success", t("settings_exported_successfully") || "JSON Export completed successfully");

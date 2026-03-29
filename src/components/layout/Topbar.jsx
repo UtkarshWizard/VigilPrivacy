@@ -94,9 +94,9 @@ export default function Topbar() {
           transition={{ duration: 0.4 }}
         >
           <img
-            src="/assets/logo.svg"
-            alt={t("proteccio")}
-            className="w-28 sm:w-32 md:w-40 hover:cursor-pointer"
+            src="/vigil_privacy_logo.png"
+            alt={t("vigilprivacy")}
+            className="w-16 sm:w-20 md:w-12 hover:cursor-pointer"
             onClick={() => navigate("/")}
           />
         </motion.div>

@@ -76,7 +76,7 @@ export default function ResetPassword() {
       {/* LEFT SIDE ILLUSTRATION AREA */}
       <div className="hidden md:flex flex-col items-center justify-center bg-gradient-to-br from-[#E9FFF2] to-[#C4F9DC] dark:from-gray-800 dark:to-gray-900">
         <img
-          src="/assets/logo.svg"
+          src="/vigil_privacy_logo.png"
           alt="logo"
           className="w-64 h-auto drop-shadow-lg"
         />

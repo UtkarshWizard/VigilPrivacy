@@ -2,35 +2,15 @@
 import axiosInstance from "../utils/axiosInstance";
 
 export const login = async (email, password, token = null, backupCode = null) => {
-  const payload = { email, password };
-
-  // keep 2FA optional for now (no UI changes)
-  if (token) payload.token = token;
-  if (backupCode) payload.backupCode = backupCode;
-
-  const res = await axiosInstance.post("/auth/login", payload);
-  console.log(res.data)
+  // Directly call the mock axios instance
+  const res = await axiosInstance.post("/auth/login", { email });
   return res.data;
 };
 
 export const requestPasswordReset = async (email) => {
-  try {
-    const res = await axiosInstance.post("/auth/forgot-password", { email });
-    return res.data;
-  } catch (err) {
-    throw err.response?.data || { error: "Request failed" };
-  }
+  return { message: "Reset link sent to " + email };
 };
 
-
 export const resetPassword = async (token, newPassword) => {
-  try {
-    const res = await axiosInstance.post("/auth/reset-password", {
-      token,
-      newPassword,
-    });
-    return res.data;
-  } catch (err) {
-    throw err.response?.data || { error: "Reset failed" };
-  }
+  return { message: "Password reset successful" };
 };

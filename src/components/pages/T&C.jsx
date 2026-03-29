@@ -19,7 +19,7 @@ export default function TandCPage() {
             <div className="text-center">
               <i className="lucide lucide-file-text mx-auto text-6xl mb-6 opacity-90" />
               <h1 className="text-4xl md:text-5xl font-bold mb-4">Terms of Service</h1>
-              <p className="text-lg opacity-90">RoPA Application by Proteccio Data</p>
+              <p className="text-lg opacity-90">RoPA Application by VigilPrivacy Data</p>
               <div className="mt-4 flex justify-center gap-4">
                 <span className="bg-white/20 px-4 py-2 rounded-full">Last Updated: Dec 12, 2025</span>
               </div>
@@ -32,7 +32,7 @@ export default function TandCPage() {
           <section className="bg-white rounded-xl shadow-lg p-8">
             <p className="text-gray-700 leading-relaxed">
               Welcome to the RoPA (Record of Processing Activities) Application (“Application”), owned
-              and operated by Proteccio Data (“Company”, “we”, “us”, or “our”). By accessing,
+              and operated by VigilPrivacy Data (“Company”, “we”, “us”, or “our”). By accessing,
               registering, or using the Application, you (“User”, “Customer”, “Organization”, “you”,
               or “your”) agree to be bound by these Terms of Service (“Terms”). These Terms create a
               legally binding agreement. If you do not agree, do not use the Application.
@@ -68,7 +68,7 @@ export default function TandCPage() {
               </li>
               <li>
                 <strong>1.7 “Documentation”</strong> means manuals, onboarding guides, instructions, or
-                support materials made available by Proteccio Data.
+                support materials made available by VigilPrivacy Data.
               </li>
               <li>
                 <strong>1.8 “Beta Features”</strong> means experimental or pre-release functionalities
@@ -161,7 +161,7 @@ export default function TandCPage() {
           <section className="bg-white rounded-xl shadow-lg p-8">
             <h2 className="text-2xl font-bold mb-4">5. License Grant</h2>
             <p className="text-gray-700 mb-4">
-              Proteccio Data grants you a limited, revocable, non-exclusive, non-transferable, and
+              VigilPrivacy Data grants you a limited, revocable, non-exclusive, non-transferable, and
               non-sublicensable license to access and use the Application solely for your organization’s
               internal business and compliance purposes, subject to these Terms.
             </p>
@@ -171,7 +171,7 @@ export default function TandCPage() {
               <li>Copy or Modify: Copy, reproduce, alter, adapt, translate, or create derivative works of the Application.</li>
               <li>Reverse Engineering: Attempt to reverse-engineer, decompile, or disassemble any part of the Application.</li>
               <li>Bypass Security: Attempt to disable, circumvent, or bypass any security features or access controls implemented in the Application.</li>
-              <li>Compete with Proteccio Data: Use the Application to develop or offer a competing product or service.</li>
+              <li>Compete with VigilPrivacy Data: Use the Application to develop or offer a competing product or service.</li>
               <li>Resell or Re-license: Sell, lease, sublicense, distribute, or otherwise transfer the Application or any rights granted under this Agreement.</li>
               <li>Interfere with Performance: Engage in any activity that disrupts, degrades, or interferes with the performance, integrity, or availability of the Application or its underlying infrastructure.</li>
               <li>Unauthorized Access: Access or attempt to access any data or systems without proper authorization.</li>
@@ -188,7 +188,7 @@ export default function TandCPage() {
 
             <p className="text-gray-700 mb-4">
               <strong>6.2 Limited Rights of Use</strong><br />
-              Proteccio Data does not claim any ownership rights over Customer Data. Our rights are strictly limited to what is necessary to:
+              VigilPrivacy Data does not claim any ownership rights over Customer Data. Our rights are strictly limited to what is necessary to:
             </p>
 
             <ul className="list-disc ml-6 text-gray-700 space-y-1">
@@ -205,7 +205,7 @@ export default function TandCPage() {
 
             <p className="text-gray-700 mb-4">
               <strong>6.4 Data Security</strong><br />
-              Proteccio Data will implement reasonable technical and organizational measures to protect Customer Data against unauthorized access, loss, or disclosure.
+              VigilPrivacy Data will implement reasonable technical and organizational measures to protect Customer Data against unauthorized access, loss, or disclosure.
             </p>
 
             <p className="text-gray-700">
@@ -217,7 +217,7 @@ export default function TandCPage() {
           <section className="bg-white rounded-xl shadow-lg p-8">
             <h2 className="text-2xl font-bold mb-4">7. Data Privacy & Protection</h2>
             <p className="text-gray-700">
-              Proteccio Data shall implement reasonable organizational, administrative, and technical safeguards to protect Customer Data and ensure the integrity of the Application. These measures include, but are not limited to:
+              VigilPrivacy Data shall implement reasonable organizational, administrative, and technical safeguards to protect Customer Data and ensure the integrity of the Application. These measures include, but are not limited to:
             </p>
 
             <ul className="list-disc ml-6 text-gray-700 space-y-1 mt-4">
@@ -239,7 +239,7 @@ export default function TandCPage() {
 
             <p className="text-gray-700 mb-3"><strong>8.1 Data Location</strong><br />Customer Data may be stored and processed in India or other jurisdictions permitted under applicable laws and contractual agreements.</p>
 
-            <p className="text-gray-700 mb-3"><strong>8.2 Cross-Border Data Transfers</strong><br />If cross-border transfers of Customer Data are required, Proteccio Data will ensure compliance with recognized legal frameworks, including:</p>
+            <p className="text-gray-700 mb-3"><strong>8.2 Cross-Border Data Transfers</strong><br />If cross-border transfers of Customer Data are required, VigilPrivacy Data will ensure compliance with recognized legal frameworks, including:</p>
 
             <ul className="list-disc ml-6 text-gray-700 space-y-1">
               <li>Standard Contractual Clauses (SCCs) approved by relevant authorities.</li>
@@ -247,17 +247,17 @@ export default function TandCPage() {
               <li>DPDPA/GDPR-Compliant Transfer Mechanisms or equivalent safeguards.</li>
             </ul>
 
-            <p className="text-gray-700 mt-4"><strong>8.3 Third-Party Processors</strong><br />Proteccio Data may engage trusted third-party processors for purposes such as hosting and infrastructure services, analytics and performance optimization, backup and disaster recovery, integrations with authorized third-party applications. All third-party processors will be bound by contractual obligations to maintain confidentiality, security, and compliance with applicable data protection laws.</p>
+            <p className="text-gray-700 mt-4"><strong>8.3 Third-Party Processors</strong><br />VigilPrivacy Data may engage trusted third-party processors for purposes such as hosting and infrastructure services, analytics and performance optimization, backup and disaster recovery, integrations with authorized third-party applications. All third-party processors will be bound by contractual obligations to maintain confidentiality, security, and compliance with applicable data protection laws.</p>
           </section>
 
           <section className="bg-white rounded-xl shadow-lg p-8">
             <h2 className="text-2xl font-bold mb-4">9. Backups, Availability & Business Continuity</h2>
 
             <ul className="list-disc ml-6 text-gray-700 space-y-1">
-              <li><strong>9.1 Automated Backups</strong><br />Proteccio Data performs automated backups at regular intervals to help safeguard Customer Data.</li>
+              <li><strong>9.1 Automated Backups</strong><br />VigilPrivacy Data performs automated backups at regular intervals to help safeguard Customer Data.</li>
               <li><strong>9.2 Disaster Recovery</strong><br />We maintain disaster recovery procedures designed to restore services within reasonable time frames following an outage or system failure.</li>
               <li><strong>9.3 Downtime</strong><br />The Application may experience planned maintenance or unplanned downtime due to technical issues, updates, or circumstances beyond our control.</li>
-              <li><strong>9.4 No Guarantee of Uninterrupted Service</strong><br />While we strive for high availability, Proteccio Data does not guarantee uninterrupted or error-free service. Service may be affected by factors outside our reasonable control, including internet disruptions, third-party failures, or force majeure events.</li>
+              <li><strong>9.4 No Guarantee of Uninterrupted Service</strong><br />While we strive for high availability, VigilPrivacy Data does not guarantee uninterrupted or error-free service. Service may be affected by factors outside our reasonable control, including internet disruptions, third-party failures, or force majeure events.</li>
             </ul>
           </section>
 
@@ -282,7 +282,7 @@ export default function TandCPage() {
 
             <p className="text-gray-700 mb-3"><strong>11.1 Integration Features</strong><br />Certain features of the Application may integrate with external applications, services, or APIs to enhance functionality.</p>
 
-            <p className="text-gray-700 mb-3"><strong>11.2 Disclaimer of Responsibility</strong><br />Proteccio Data is not responsible for: the performance, availability, or reliability of third-party systems; how third-party systems handle or process Customer Data; failures, errors, or downtime caused by integration dependencies.</p>
+            <p className="text-gray-700 mb-3"><strong>11.2 Disclaimer of Responsibility</strong><br />VigilPrivacy Data is not responsible for: the performance, availability, or reliability of third-party systems; how third-party systems handle or process Customer Data; failures, errors, or downtime caused by integration dependencies.</p>
 
             <p className="text-gray-700"><strong>11.3 Third-Party Terms</strong><br />Your use of any third-party APIs, tools, or services is governed by the terms and conditions of those third parties, and you are solely responsible for compliance with such terms.</p>
           </section>
@@ -306,7 +306,7 @@ export default function TandCPage() {
               <li>Low Severity: Response within 7–10 business days.</li>
             </ul>
 
-            <p className="text-gray-700 mt-3"><strong>Important Note:</strong> These SLA timelines are indicative only and do not constitute contractual guarantees unless a paid enterprise SLA agreement is separately executed between you and Proteccio Data.</p>
+            <p className="text-gray-700 mt-3"><strong>Important Note:</strong> These SLA timelines are indicative only and do not constitute contractual guarantees unless a paid enterprise SLA agreement is separately executed between you and VigilPrivacy Data.</p>
           </section>
 
           <section className="bg-white rounded-xl shadow-lg p-8">
@@ -321,7 +321,7 @@ export default function TandCPage() {
 
             <p className="text-gray-700 mb-3"><strong>14.1 Pricing and Renewal</strong><br />Details of paid plans, licensing models, and renewal cycles will be clearly stated at the time of purchase or subscription.</p>
 
-            <p className="text-gray-700 mb-3"><strong>14.2 Non-Refundable Fees</strong><br />All fees, charges, and payments made to Proteccio Data are non-refundable, except where required by applicable law.</p>
+            <p className="text-gray-700 mb-3"><strong>14.2 Non-Refundable Fees</strong><br />All fees, charges, and payments made to VigilPrivacy Data are non-refundable, except where required by applicable law.</p>
 
             <p className="text-gray-700 mb-3"><strong>14.3 Non-Payment Consequences</strong><br />Failure to make timely payments may result in service suspension or termination until outstanding amounts are settled.</p>
 
@@ -344,7 +344,7 @@ export default function TandCPage() {
           <section className="bg-white rounded-xl shadow-lg p-8">
             <h2 className="text-2xl font-bold mb-4">16. Security Incidents & Breach Notification</h2>
 
-            <p className="text-gray-700 mb-3"><strong>Proteccio Data Obligations</strong><br />In the event of a confirmed security incident involving Customer Data, Proteccio Data will:</p>
+            <p className="text-gray-700 mb-3"><strong>VigilPrivacy Data Obligations</strong><br />In the event of a confirmed security incident involving Customer Data, VigilPrivacy Data will:</p>
             <ul className="list-disc ml-6 text-gray-700 space-y-1">
               <li>Notify you within a reasonable timeframe after becoming aware of the incident.</li>
               <li>Provide all known details regarding the nature and scope of the breach.</li>
@@ -352,7 +352,7 @@ export default function TandCPage() {
               <li>Support you in fulfilling any legal or regulatory reporting obligations related to the incident.</li>
             </ul>
 
-            <p className="text-gray-700 mt-3"><strong>Customer Obligations</strong><br />You must promptly notify Proteccio Data if you suspect or become aware of any compromise of your account credentials or unauthorized access to the Application.</p>
+            <p className="text-gray-700 mt-3"><strong>Customer Obligations</strong><br />You must promptly notify VigilPrivacy Data if you suspect or become aware of any compromise of your account credentials or unauthorized access to the Application.</p>
           </section>
 
           <section className="bg-white rounded-xl shadow-lg p-8">
@@ -366,14 +366,14 @@ export default function TandCPage() {
           <section className="bg-white rounded-xl shadow-lg p-8">
             <h2 className="text-2xl font-bold mb-4">18. Audit Rights</h2>
 
-            <p className="text-gray-700 mb-3">Enterprise customers may request the following compliance-related artifacts from Proteccio Data:</p>
+            <p className="text-gray-700 mb-3">Enterprise customers may request the following compliance-related artifacts from VigilPrivacy Data:</p>
 
             <ul className="list-disc ml-6 text-gray-700 space-y-1">
               <li>Security Compliance Reports</li>
               <li>Documentation of implemented security measures and certifications.</li>
               <li>Access Logs - Detailed logs of user and system access events, subject to applicable privacy laws.</li>
               <li>Artifacts or Attestations - Evidence of adherence to security and privacy standards.</li>
-              <li>Third-Party Audit Results - Summaries or reports from independent audits conducted on Proteccio Data systems.</li>
+              <li>Third-Party Audit Results - Summaries or reports from independent audits conducted on VigilPrivacy Data systems.</li>
             </ul>
 
             <p className="text-gray-700 mt-3">Important Limitation: No physical or on-site audits shall be permitted unless expressly agreed in a separate contractual arrangement.</p>
@@ -382,7 +382,7 @@ export default function TandCPage() {
           <section className="bg-white rounded-xl shadow-lg p-8">
             <h2 className="text-2xl font-bold mb-4">19. Intellectual Property</h2>
 
-            <p className="text-gray-700">All intellectual property rights related to the Application remain the exclusive property of Proteccio Data, including but not limited to:</p>
+            <p className="text-gray-700">All intellectual property rights related to the Application remain the exclusive property of VigilPrivacy Data, including but not limited to:</p>
 
             <ul className="list-disc ml-6 text-gray-700 space-y-1 mt-4">
               <li>Source Code</li>
@@ -401,7 +401,7 @@ export default function TandCPage() {
           <section className="bg-white rounded-xl shadow-lg p-8">
             <h2 className="text-2xl font-bold mb-4">20. Warranties & Disclaimers</h2>
 
-            <p className="text-gray-700 mb-3">Proteccio Data does not warrant or guarantee that:</p>
+            <p className="text-gray-700 mb-3">VigilPrivacy Data does not warrant or guarantee that:</p>
             <ul className="list-disc ml-6 text-gray-700 space-y-1">
               <li>The Application will be error-free or uninterrupted.</li>
               <li>Data will never be lost, corrupted, or inaccessible.</li>
@@ -418,16 +418,16 @@ export default function TandCPage() {
 
             <p className="text-gray-700">To the maximum extent permitted by law:</p>
             <ul className="list-disc ml-6 text-gray-700 space-y-1 mt-3">
-              <li>No Indirect or Consequential Damages - Proteccio Data shall not be liable for any indirect, punitive, incidental, or consequential damages, including but not limited to loss of data, revenue, profits, or goodwill.</li>
-              <li>Liability Cap - Proteccio Data’s total aggregate liability under this Agreement shall be limited to the total fees paid by you in the twelve (12) months preceding the claim.</li>
-              <li>Risk Assumption - You acknowledge and agree that you use the Application at your own risk, and Proteccio Data does not guarantee uninterrupted service or absolute security.</li>
+              <li>No Indirect or Consequential Damages - VigilPrivacy Data shall not be liable for any indirect, punitive, incidental, or consequential damages, including but not limited to loss of data, revenue, profits, or goodwill.</li>
+              <li>Liability Cap - VigilPrivacy Data’s total aggregate liability under this Agreement shall be limited to the total fees paid by you in the twelve (12) months preceding the claim.</li>
+              <li>Risk Assumption - You acknowledge and agree that you use the Application at your own risk, and VigilPrivacy Data does not guarantee uninterrupted service or absolute security.</li>
             </ul>
           </section>
 
           <section className="bg-white rounded-xl shadow-lg p-8">
             <h2 className="text-2xl font-bold mb-4">22. Indemnification</h2>
 
-            <p className="text-gray-700">You agree to indemnify, defend, and hold harmless Proteccio Data, its affiliates, officers, employees, and agents from and against any claims, damages, liabilities, costs, and expenses (including reasonable attorney fees) arising out of or related to:</p>
+            <p className="text-gray-700">You agree to indemnify, defend, and hold harmless VigilPrivacy Data, its affiliates, officers, employees, and agents from and against any claims, damages, liabilities, costs, and expenses (including reasonable attorney fees) arising out of or related to:</p>
 
             <ul className="list-disc ml-6 text-gray-700 space-y-1 mt-3">
               <li>Misuse of the Application</li>
@@ -442,7 +442,7 @@ export default function TandCPage() {
           <section className="bg-white rounded-xl shadow-lg p-8">
             <h2 className="text-2xl font-bold mb-4">23. Termination</h2>
 
-            <p className="text-gray-700 mb-3">Proteccio Data may suspend or terminate your access to the Service immediately if:</p>
+            <p className="text-gray-700 mb-3">VigilPrivacy Data may suspend or terminate your access to the Service immediately if:</p>
             <ul className="list-disc ml-6 text-gray-700 space-y-1">
               <li>You breach these Terms.</li>
               <li>You violate the Acceptable Use Policy.</li>
@@ -463,7 +463,7 @@ export default function TandCPage() {
           <section className="bg-white rounded-xl shadow-lg p-8">
             <h2 className="text-2xl font-bold mb-4">24. Modifications to Terms</h2>
 
-            <p className="text-gray-700">Proteccio Data reserves the right to revise, update, or modify these Terms at any time, with or without prior notice. Your continued use of the Application after such modifications constitutes your acceptance of the updated Terms. It is your responsibility to review these Terms periodically for any changes.</p>
+            <p className="text-gray-700">VigilPrivacy Data reserves the right to revise, update, or modify these Terms at any time, with or without prior notice. Your continued use of the Application after such modifications constitutes your acceptance of the updated Terms. It is your responsibility to review these Terms periodically for any changes.</p>
           </section>
 
           <section className="bg-white rounded-xl shadow-lg p-8">
@@ -497,8 +497,8 @@ export default function TandCPage() {
 
             <p className="text-gray-700">All notices should be sent to:</p>
             <p className="text-gray-700 mt-2">
-              Proteccio Data<br />
-              Email: Contact@protecciodata.com<br />
+              VigilPrivacy Data<br />
+              Email: Contact@vigilprivacydata.com<br />
               Address: Please refer to registered address on website
             </p>
 
@@ -508,7 +508,7 @@ export default function TandCPage() {
           <section className="bg-white rounded-xl shadow-lg p-8">
             <h2 className="text-2xl font-bold mb-4">28. Entire Agreement</h2>
 
-            <p className="text-gray-700">These Terms constitute the entire agreement between you and Proteccio Data regarding your use of the Application and supersede any prior agreements, proposals, or discussions, whether written or oral, relating to the subject matter herein.</p>
+            <p className="text-gray-700">These Terms constitute the entire agreement between you and VigilPrivacy Data regarding your use of the Application and supersede any prior agreements, proposals, or discussions, whether written or oral, relating to the subject matter herein.</p>
           </section>
 
           <section className="bg-white rounded-xl shadow-lg p-8">
@@ -526,7 +526,7 @@ export default function TandCPage() {
           <section className="bg-white rounded-xl shadow-lg p-8">
             <h2 className="text-2xl font-bold mb-4">31. Force Majeure</h2>
 
-            <p className="text-gray-700">Proteccio Data shall not be held liable for any delay or failure in performance resulting from circumstances beyond its reasonable control, including but not limited to:</p>
+            <p className="text-gray-700">VigilPrivacy Data shall not be held liable for any delay or failure in performance resulting from circumstances beyond its reasonable control, including but not limited to:</p>
 
             <ul className="list-disc ml-6 text-gray-700 space-y-1 mt-3">
               <li>Natural disasters (e.g., earthquakes, floods, storms)</li>
@@ -537,22 +537,22 @@ export default function TandCPage() {
               <li>Internet or telecommunications service disruptions</li>
             </ul>
 
-            <p className="text-gray-700 mt-3">Such events shall excuse Proteccio Data from its obligations for the duration of the disruption and to the extent affected.</p>
+            <p className="text-gray-700 mt-3">Such events shall excuse VigilPrivacy Data from its obligations for the duration of the disruption and to the extent affected.</p>
           </section>
 
           <section className="bg-white rounded-xl shadow-lg p-8">
             <h2 className="text-2xl font-bold mb-4">32. Assignment</h2>
 
-            <p className="text-gray-700 mb-3">You may not assign or transfer these Terms, in whole or in part, without the prior written consent of Proteccio Data.</p>
+            <p className="text-gray-700 mb-3">You may not assign or transfer these Terms, in whole or in part, without the prior written consent of VigilPrivacy Data.</p>
 
-            <p className="text-gray-700">Proteccio Data may assign or transfer these Terms without restriction in connection with: a merger, an acquisition, a corporate restructuring, a change of ownership or control. Any permitted assignment shall be binding upon and inure to the benefit of the parties and their respective successors and permitted assigns.</p>
+            <p className="text-gray-700">VigilPrivacy Data may assign or transfer these Terms without restriction in connection with: a merger, an acquisition, a corporate restructuring, a change of ownership or control. Any permitted assignment shall be binding upon and inure to the benefit of the parties and their respective successors and permitted assigns.</p>
           </section>
 
           <section className="bg-white rounded-xl shadow-lg p-8">
             <h2 className="text-2xl font-bold mb-4">33. Contact</h2>
 
             <p className="text-gray-700">For any queries, support, or assistance, please reach out to us at:</p>
-            <p className="text-gray-700 mt-2"><strong>Email:</strong> contact@protecciodata.com<br /><strong>Website:</strong> www.protecciodata.com</p>
+            <p className="text-gray-700 mt-2"><strong>Email:</strong> contact@vigilprivacydata.com<br /><strong>Website:</strong> www.vigilprivacydata.com</p>
           </section>
 
           {/* Footer CTA */}
@@ -565,7 +565,7 @@ export default function TandCPage() {
             </button>
 
             <a
-              href="mailto:contact@protecciodata.com?subject=Terms Inquiry"
+              href="mailto:contact@vigilprivacydata.com?subject=Terms Inquiry"
               className="inline-flex items-center gap-2 bg-[#5DE992] text-black px-4 py-2 rounded-lg font-semibold hover:opacity-90 transition"
             >
               Contact Support
